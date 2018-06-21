@@ -1,0 +1,29 @@
+<h3>Avaliar</h3>
+
+<select name="avaliacao" id="avaliacao">
+    <option value="" disabled selected>Selecione a avaliação</option>
+</select>
+<select name="cliente" id="cliente" disabled>
+    <option value="" disabled selected>Selecione o cliente a avaliar</option>
+</select>
+
+
+<div id="questoes" style="display: none">
+    <br>
+    <h4>Responda às questões abaixo</h4>
+
+    <p>
+        1- Em uma escala de 0 a 10, qual a probabilidade de você recomendar nosso produto/serviço a um amigo/conhecido?
+    </p>
+    <input type="number" min="0" max="10" name="nota" id="nota" placeholder="Sua resposta">
+    <br>
+    <p>
+        2- Qual é o motivo dessa nota?
+    </p>
+    <input type="text" name="motivo" id="motivo" placeholder="Sua resposta">
+
+</div>
+
+<br>
+
+<button>Avaliar</button>
